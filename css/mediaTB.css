@@ -1,0 +1,76 @@
+/* Планшет */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .center {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 736px;
+    }
+
+    .intro-head {
+        font-size: 44px;
+        width: 310px;
+    }
+
+    .intro-head-lux {
+        font-size: 24px;
+    }
+
+    .intro-head-fashion {
+        font-size: 24px;
+    }
+
+    .offer {
+        -ms-grid-columns: 232px 20px 232px 20px 232px;
+        grid-template-columns: repeat(3, 232px);
+        -ms-grid-rows: 167px 20px 116px;
+        grid-template-rows: 167px 116px;
+        gap: 20px;
+    }
+
+    .products {
+        -ms-grid-columns: 360px 16px 360px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+
+    .info {
+        padding: 48px 0 64px 0;
+    }
+
+    .info-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .info-card {
+        width: 360px;
+    }
+
+    .subscription {
+        background-image: url(..//img/sub-bg-tb.jpg);
+        height: auto;
+    }
+
+    .sub-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 64px;
+        padding-bottom: 140px;
+    }
+
+    .sub-head-input {
+        gap: 27px;
+    }
+
+}
