@@ -1,6 +1,6 @@
 /*Телефон*/
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
     .center {
         margin: 0 auto;
@@ -46,13 +46,13 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        max-width: 344px;
+        max-width: 320px;
         gap: 32px;
         padding: 65px 0;
     }
 
     .offer-img {
-        max-width: 344px;
+        max-width: 320px;
     }
 
     .offer-img-del {
@@ -116,6 +116,14 @@
 
     .sub-head-pr {
         font-size: 14px;
+    }
+
+    .sub-input-email {
+        padding: 14px 38px 14px 18px;
+    }
+
+    .sub-input-submit {
+        padding: 14px 16px;
     }
 
     .footer {
